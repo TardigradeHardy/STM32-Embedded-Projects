@@ -1,0 +1,21 @@
+# 忽略 Keil 编译产生的所有文件
+Objects/
+Listings/
+*.axf
+*.hex
+*.bin
+*.o
+*.d
+*.dep
+*.htm
+*.map
+*.bak
+
+# 忽略 Keil 本地配置文件（只保留核心工程文件）
+*.uvoptx
+*.uvguix.*
+
+# 忽略调试/工具文件
+.vscode/
+DebugConfig/
+keilkill.bat
